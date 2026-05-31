@@ -1,0 +1,59 @@
+@import "tailwindcss";
+
+:root {
+  --chat-bg: #ededed;
+  --header-bg: #f7f7f7;
+  --header-border: #d9d9d9;
+  --text-primary: #191919;
+  --text-secondary: #888888;
+  --bubble-user: #95ec69;
+  --bubble-ai: #ffffff;
+  --accent: #07c160;
+  --accent-hover: #06ad56;
+  --input-bg: #ffffff;
+  --input-border: #e5e5e5;
+  --panel-bg: #f7f7f7;
+}
+
+body {
+  background: var(--chat-bg);
+  color: var(--text-primary);
+  min-height: 100dvh;
+}
+
+@keyframes blink {
+  0%,
+  100% {
+    opacity: 0.35;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+
+.typing-dot {
+  animation: blink 1.2s infinite ease-in-out;
+}
+
+.typing-dot:nth-child(2) {
+  animation-delay: 0.2s;
+}
+
+.typing-dot:nth-child(3) {
+  animation-delay: 0.4s;
+}
+
+.input-field {
+  width: 100%;
+  border-radius: 0.5rem;
+  border: 1px solid var(--input-border);
+  background: var(--input-bg);
+  padding: 0.625rem 1rem;
+  font-size: 0.9375rem;
+  color: var(--text-primary);
+  outline: none;
+}
+
+.input-field:focus {
+  border-color: var(--accent);
+}
