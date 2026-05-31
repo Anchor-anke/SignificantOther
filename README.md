@@ -21,19 +21,19 @@
 
 ### 💬 自然对话体验
 ![聊天记录](./public/screenshots/chat-history.png)
-*流畅的对话交互，支持上下文理解和自然回复*
+
 
 ### 🖼️ 图片识别能力
 ![图片识别](./public/screenshots/image-recognition.png)
-*AI 能够理解图片内容并做出自然回应*
+
 
 ### 🎭 个性化设置
 ![伴侣设置](./public/screenshots/settings-panel.png)
-*自定义伴侣名称、称呼、性格和头像*
+
 
 ### 🎵 深度对话示例
 ![深度对话](./public/screenshots/deep-conversation.png)
-*支持音乐、影视等话题的深度交流*
+
 
 ## 🛠️ 技术栈
 
